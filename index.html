@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vanilla JS Note App</title>
+</head>
+
+<body>
+    <div id="container">
+        <form onsubmit="addTodo(event)">
+            <div class="inputBox">
+                <input id="getTodoInput" type="search" placeholder="Enter Todo" class="" />
+            </div>
+            <button type="submit">Add Todo</button>
+        </form>
+        <!-- // list of todos -->
+        <!-- onclick="handleClick(event)" -->
+        <ul ondblclick="makeInputEditable(event)" id="todoListContainer" class="todoList">
+            <!-- // generate this HTML dynamically using JS -->
+            <!-- <li>
+                <div>
+                    <input type="search"/>
+                    <span class="">x</span>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+</body>
+<script src="./Todo.js"></script>
+<script src="./index.js"></script>
+
+</html>

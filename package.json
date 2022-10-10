@@ -1,0 +1,15 @@
+{
+  "name": "vanilla-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --port=3002 --no-cache"
+  },
+  "keywords": [],
+  "author": "abhinav",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}
